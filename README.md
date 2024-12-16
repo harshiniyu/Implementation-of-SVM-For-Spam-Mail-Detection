@@ -28,12 +28,9 @@ Developed by: Harshini Y
 RegisterNumber:212223240050
 
 /*
-Program to implement the SVM For Spam Mail Detection..
-Developed by: MARINO SARISHA T
-RegisterNumber:  212223240084
-*/
+Program 
 
-import chardet
+import char
 with open('spam.csv','rb') as file:
     result = chardet.detect(file.read(10000))
 result
